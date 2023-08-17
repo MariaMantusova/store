@@ -3,6 +3,7 @@ import "./Main.css";
 import Menu from "../Menu/Menu";
 import ImageBlock from "../ImageBlock/ImageBlock";
 import Catalog from "../Catalog/Catalog";
+import AboutStore from "../AboutStore/AboutStore";
 
 function Main() {
     return(
@@ -10,6 +11,7 @@ function Main() {
             <Menu/>
             <ImageBlock/>
             <Catalog/>
+            <AboutStore/>
         </>
     )
 }

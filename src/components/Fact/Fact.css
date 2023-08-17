@@ -1,0 +1,37 @@
+.fact {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    justify-content: center;
+}
+
+.fact__number {
+    margin-top: 10px;
+   padding: 8px 15px;
+    font-size: 20px;
+    border-radius: 50%;
+    color: #C38EC7;
+    font-weight: 900;
+    border: 2px solid #C38EC7;
+}
+
+.fact__title {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #C38EC7;
+}
+
+.fact__description {
+    text-align: center;
+    font-size: 16px;
+    margin: 0;
+    color: #C38EC7;
+}
