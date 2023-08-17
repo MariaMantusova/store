@@ -7,7 +7,8 @@ function Menu() {
     const [open, setOpen] = useState(false);
 
     const menuIcon = <CgMenu className="menu__icon" onClick={() => setOpen(!open)} />;
-    const menuCloseIcon = <CgClose className="menu__icon" onClick={() => setOpen(!open)}/>;
+    const menuCloseIcon = <CgClose className="menu__icon menu-close__icon"
+                                   onClick={() => setOpen(!open)}/>;
     return (
         <>
             {open ? menuCloseIcon : menuIcon}
