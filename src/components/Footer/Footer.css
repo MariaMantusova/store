@@ -3,12 +3,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding: 20px 5px;
 }
 
 .footer__text {
     margin: 0;
     font-size: 16px;
     color: #FFFFFF;
+}
+
+@media screen and (max-width: 800px) {
+    .footer__text {
+        font-size: 12px;
+        text-align: center;
+    }
 }

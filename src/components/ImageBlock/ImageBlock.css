@@ -9,6 +9,13 @@
     justify-content: center;
 }
 
+@media screen and (max-width: 800px) {
+    .image-block {
+        min-height: 60vh;
+        max-height: 70vh;
+    }
+}
+
 .image-block::before {
     content: "";
     top: 0;
@@ -26,5 +33,15 @@
     z-index: 0;
     margin-top: 80px;
     font-size: 40px;
+    text-align: center;
     color: #FFFFFF;
+}
+
+@media screen and (max-width: 800px) {
+    .image-block__title {
+        margin-top: 140px;
+        font-size: 35px;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
 }

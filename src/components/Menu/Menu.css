@@ -11,8 +11,21 @@
     z-index: 2;
 }
 
+@media screen and (max-width: 800px) {
+    .menu__icon {
+        top: 20px;
+        right: 20px;
+    }
+}
+
 .menu-close__icon {
     top: 60px;
+}
+
+@media screen and (max-width: 530px) {
+    .menu-close__icon {
+        top: 100px;
+    }
 }
 
 .menu__nav {
@@ -26,6 +39,14 @@
     justify-content: center;
     padding-top: 15px;
     padding-bottom: 15px;
+    z-index: 2;
+}
+
+@media screen and (max-width: 800px) {
+    .menu__nav {
+        gap: 20px;
+        flex-wrap: wrap;
+    }
 }
 
 .menu__link {
@@ -34,6 +55,12 @@
     font-weight: 500;
     transition: opacity 0.4s ease-in-out;
     cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+    .menu__link {
+        font-size: 15px;
+    }
 }
 
 .menu__link:hover {

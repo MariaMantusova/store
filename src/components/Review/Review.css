@@ -7,6 +7,12 @@
     align-items: center;
 }
 
+@media screen and (max-width: 800px) {
+    .review {
+        width: 70vw;
+    }
+}
+
 .review__container {
     display: flex;
     flex-direction: column;
@@ -14,6 +20,13 @@
     max-width: 600px;
     padding-left: 80px;
     padding-right: 80px;
+}
+
+@media screen and (max-width: 800px) {
+    .review__container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
 }
 
 .review__image {

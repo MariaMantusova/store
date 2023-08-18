@@ -8,6 +8,13 @@
     margin: 0 auto;
 }
 
+@media screen and (max-width: 800px) {
+    .reviews {
+        max-width: 90vw;
+        padding-bottom: 60px;
+    }
+}
+
 .reviews__title {
     margin-top: 0;
     margin-bottom: 40px;
@@ -15,8 +22,15 @@
     font-size: 30px;
 }
 
+@media screen and (max-width: 800px) {
+    .reviews__title {
+        font-size: 25px;
+    }
+}
+
 .reviews__container {
     display: flex;
+    justify-content: space-between;
 }
 
 .reviews__vector {
@@ -26,6 +40,12 @@
     color: #C38EC7;
     cursor: pointer;
     transition: opacity 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 800px) {
+    .reviews__vector {
+        font-size: 40px;
+    }
 }
 
 .reviews__vector:hover {
