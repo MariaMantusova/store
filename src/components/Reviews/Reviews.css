@@ -20,11 +20,18 @@
     margin-bottom: 40px;
     color: #C38EC7;
     font-size: 30px;
+    text-align: center;
 }
 
 @media screen and (max-width: 800px) {
     .reviews__title {
         font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .reviews__title {
+        font-size: 20px;
     }
 }
 

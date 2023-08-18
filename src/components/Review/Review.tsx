@@ -14,7 +14,7 @@ function Review(props: IPropsReview) {
             <div className="review__container">
                 <img className="review__image" src={props.image} alt="Отзыв покупателя"/>
                 <h3 className="review__name">{props.name}</h3>
-                <p className="review_body">{props.body}</p>
+                <p className="review__body">{props.body}</p>
             </div>
         </li>
     )
