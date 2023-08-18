@@ -4,6 +4,7 @@ import Menu from "../Menu/Menu";
 import ImageBlock from "../ImageBlock/ImageBlock";
 import Catalog from "../Catalog/Catalog";
 import AboutStore from "../AboutStore/AboutStore";
+import Reviews from "../Reviews/Reviews";
 
 function Main() {
     return(
@@ -12,6 +13,7 @@ function Main() {
             <ImageBlock/>
             <Catalog/>
             <AboutStore/>
+            <Reviews/>
         </>
     )
 }

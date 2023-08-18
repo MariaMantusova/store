@@ -9,7 +9,7 @@ function AboutStore() {
             <h2 className="about-store__title">Почему именно мы?</h2>
             <ul className="about-store__facts">
             {facts.map(fact =>
-                <Fact number={fact.id} description={fact.description} title={fact.name}/>
+                <Fact number={fact.id} description={fact.description} title={fact.name} key={fact.id}/>
             )}
             </ul>
         </section>

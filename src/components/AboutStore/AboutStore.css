@@ -1,5 +1,5 @@
 .about-store {
-    background: linear-gradient(#C38EC7, rgba(195, 142, 199, 0.3), #FFFFFF);
+    background: linear-gradient(#FFFFFF, rgba(195, 142, 199, 0.3), rgba(195, 142, 199, 0.3), #FFFFFF);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,7 +9,7 @@
 
 .about-store__title {
     font-size: 30px;
-    color: #FFFFFF;
+    color: rgba(195, 142, 199, 0.6);
     margin-top: 0;
     margin-bottom: 30px;
 }
