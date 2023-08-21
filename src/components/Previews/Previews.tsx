@@ -1,11 +1,11 @@
 import React from "react";
-import "./Catalog.css";
+import "./Previews.css";
 import PreviewMax from "../PreviewMax/PreviewMax";
 import PreviewMin from "../PreviewMin/PreviewMin";
 
-function Catalog() {
+function Previews() {
     return (
-        <section className="catalog">
+        <section className="previews">
             <PreviewMax link="/men's-clothes"
                         image="https://images.unsplash.com/photo-1490578474895-699cd4e2cf59?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
                         title="Мужская одежда" classBlock="preview-max_top"/>
@@ -23,4 +23,4 @@ function Catalog() {
     )
 }
 
-export default Catalog;
+export default Previews;

@@ -1,4 +1,4 @@
-.catalog {
+.previews {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 300px);
@@ -9,7 +9,7 @@
 }
 
 @media screen and (max-width: 800px) {
-    .catalog {
+    .previews {
         display: flex;
         flex-direction: column;
     }
