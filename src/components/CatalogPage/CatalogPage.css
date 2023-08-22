@@ -1,0 +1,21 @@
+.catalog {
+    display: flex;
+    flex-direction: column;
+}
+
+.catalog__back-link {
+    margin-top: 60px;
+    color: #C38EC7;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 20px;
+}
+
+.catalog__error {
+    color: red;
+    font-size: 18px;
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+    height: 80vh;
+}

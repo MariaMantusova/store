@@ -1,0 +1,41 @@
+.catalog__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 40px 50px;
+    border-radius: 30px;
+    border: 2px solid #C38EC7;
+}
+
+.item__image {
+    width: 200px;
+    height: 250px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.item__title {
+    max-width: 250px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.4;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.item__button-more {
+    border: 1px solid #C38EC7;
+    border-radius: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #C38EC7;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: transparent;
+    width: 250px;
+    margin-bottom: 0;
+   justify-self: flex-end;
+}

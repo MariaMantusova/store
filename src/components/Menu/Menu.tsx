@@ -1,9 +1,13 @@
-import React, {useState} from "react"
+import React, {useState, ReactNode} from "react"
 import "./Menu.css";
 import {CgClose, CgMenu} from "react-icons/cg";
 import {NavLink} from "react-router-dom";
 
-function Menu() {
+interface IPropsMenu {
+    children?: ReactNode
+}
+
+function Menu(props: IPropsMenu) {
     const [open, setOpen] = useState(false);
 
     const menuIcon = <CgMenu className="menu__icon" onClick={() => setOpen(!open)} />;
@@ -24,6 +28,7 @@ function Menu() {
                          className={({isActive}) => `menu__link ${isActive ? "menu__link_active" : ""}`}>Электроника</NavLink>
                 <NavLink to="/jewelery" className={({isActive}) => `menu__link ${isActive ? "menu__link_active" : ""}`}>Ювелирные
                     изделия</NavLink>
+                {props.children}
             </nav>
             }
         </>
