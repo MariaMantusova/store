@@ -21,7 +21,7 @@ ___
 
 ___
 
-[Перейти на сайт 👕](https://fakestoreapi.com/docs)
+[Перейти на сайт 👕](https://mariamantusova.github.io/store/)
 
 ___
 
