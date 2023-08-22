@@ -9,6 +9,13 @@
     border: 2px solid #C38EC7;
 }
 
+@media screen and (max-width: 380px) {
+    .catalog__item {
+        max-width: 90vw;
+        padding: 30px 20px;
+    }
+}
+
 .item__image {
     width: 200px;
     height: 250px;

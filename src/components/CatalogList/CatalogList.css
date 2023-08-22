@@ -8,3 +8,9 @@
     margin: 0 auto;
     padding: 80px 0 40px;
 }
+
+@media screen and (max-width: 380px) {
+    .catalog__list {
+        gap: 70px;
+    }
+}
